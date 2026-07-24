@@ -17,7 +17,8 @@ spec:
         image: cloudflare/cloudflared:latest
         args:
         - tunnel
-
+        - --origincert
+        - /home/michael/.cloudflared
         # Points cloudflared to the config file, which configures what
         # cloudflared will actually do. This file is created by a ConfigMap
         # below.
