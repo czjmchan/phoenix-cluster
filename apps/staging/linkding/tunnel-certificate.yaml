@@ -1,0 +1,21 @@
+apiVersion: v1
+data:
+    credential.json: ENC[AES256_GCM,data:1/P6jofOjuSHQ4em8QFF1I+6YE7WuBsfKFTxD70aY+hIk/QB2S+8UTjA7wNixMxLm4f5nNpR+TFIJeNbIA7SBIKBklbLfILoMLXpMTMR/3ywck6Ieq2ktbzBog6QRg6yN2/TjCh3wGsyQM9JI8iCmRhaAvKWqzobMgS5BqQs35qSWVqFb46Dlghl1O4t7r45sLGiaZBRCZJtcPL8KUIiRGkExfOMOVQexRWSzVFO4xi5nfiJ5tUvOljxT/wuch5VFy2Cp3pamZIExxKpqlOw2jo8hXaf0cJLRD/stfmSRVZSIi+rGJRO5ALY5Gg=,iv:dfJdD563lUfuPzM0L6zwo4aeTRKygAJezHYlpfreTQM=,tag:WCYHEF0/H4iX6ko5TfqopA==,type:str]
+kind: Secret
+metadata:
+    name: tunnel-certificate
+sops:
+    age:
+        - enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA2T3pQWmZuNllvMk9WWFNk
+            TWE4SjhrWWpTcTYyVG9wcmh5MW5Qb3p3Y3lzClRGaHd1b2ZGZkJjSkxveVhySHFH
+            c0NSVXFvdlJZam5TdCtlV09qZjFOaXMKLS0tIGprZmRkN21nbElzOENBSDBKUWR0
+            MDZ0TVlSSGI0eDZHRWhUQUdTakFhSU0K2qcLvfhcjyp70CPyyCbDxoXjKfVcqpVN
+            g73yVENsaom4uRLHs5izoBIn20uKg6312iVUS01OS4JM/rLSTp6h/w==
+            -----END AGE ENCRYPTED FILE-----
+          recipient: age1r6h24df7s5g38yvm2ytwtfev4zqhv8wvglrypugfqxf8s30yvqcqsektlj
+    encrypted_regex: ^(data|stringData)$
+    lastmodified: "2026-07-25T18:25:37Z"
+    mac: ENC[AES256_GCM,data:2JFboMBbxwnYF2bXf+FIWq4/WcszQ1PAMRiCY6eD56Ibj7IT9uTOKLtgFHjq0KUCoj3j34hxlZiwK/mkjxh3TDur/3RlZ8GVsRpHfqVTt62U4NUHbpZEAOv8unY4mjxe+qId+i6lla/jIU1p0m4X4/Jc+bcLYBga7bw09WVn50g=,iv:GR7LrRp2f6X1cUNg3sMViPlncehzEIQ0vl0dDu9KkBs=,tag:5HFS495+DgdY0t6Oq1AZSg==,type:str]
+    version: 3.13.3
