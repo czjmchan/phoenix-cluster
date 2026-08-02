@@ -29,7 +29,7 @@ spec:
     grafana:
       adminPassword: mischa
       ingress:
-        enabled: false
+        enabled: true
         ingressClassName: traefik
         hosts:
           - ld-grafana.czjmchan.com
