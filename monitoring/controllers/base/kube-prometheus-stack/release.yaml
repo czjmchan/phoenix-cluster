@@ -33,7 +33,7 @@ spec:
         ingressClassName: traefik
         hosts:
           - grafana.czjmchan.com
-          #  - ld-grafana.czjmchan.com
+          - ld-grafana.czjmchan.com
 
         ## TLS configuration for grafana Ingress
         ## Secret must be manually created in the namespace
